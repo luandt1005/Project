@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<EditTextPreference android:key="event_name" 
+	    				android:title="@string/name"
+	    				android:summary="Sự kiện" />
+	<EditTextPreference android:key="location"
+	    				android:title="@string/location"
+	    				android:summary="Địa điểm" />
+	<PreferenceCategory android:title="@string/title_time">
+
+	    	    <Preference android:key="date"
+	                android:selectable="true" />
+	    <Preference android:key="hour"
+	                android:selectable="true" />
+	    
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/note">
+	    <EditTextPreference android:key="note"
+	        				android:title="@string/description"
+	        				android:summary="Ghi chú" />
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/utility">
+	
+		<Preference   android:key="loop"
+		       				android:title="@string/loop" />
+		
+		<ListPreference android:key="reminders"
+		        		android:title="@string/reminders" 
+		        		android:entries="@array/reminders_title"
+		        		android:entryValues="@array/reminders_value"/>
+	
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/settings">
+		<RingtonePreference 
+		    android:key="ringtone_new"
+		    android:title="@string/ringtone"
+		    android:ringtoneType="ringtone" />
+		<ListPreference android:key="silence_after"
+		    			android:title="@string/silence_after"
+		    			android:entries="@array/silence_after_title"
+		    			android:entryValues="@array/silence_after_value"/>
+		
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <EditTextPreference 
+            android:key="preference_label"
+            android:title="@string/pre_title_label"
+            android:summary="@string/labeldemo"/>
+    <Preference 
+        android:key="preference_time"
+        android:title="@string/pre_title_set_time"
+        android:selectable="true"/>
+    <MultiSelectListPreference 
+        android:key="preference_repeat"
+        android:title="@string/pre_title_repeat"
+        android:entries="@array/title_repeat"
+        android:entryValues="@array/value_repeat"
+        android:summary="@string/repeatdemo"
+        />
+    
+    <RingtonePreference 
+        android:key="preference_ringtone"
+        android:title="Nhạc Chuông"
+        android:showDefault="true"
+        android:showSilent="true"
+        android:summary="Nhạc Chuông mặc định"/>
+    <ListPreference 
+        android:key="preference_snooze_time"
+        android:title="@string/pre_title_snooze_time"
+        android:entries="@array/title_snooze_time"
+        android:entryValues="@array/value_snooze_time"
+        android:summary="3 Phút"
+        />
+    <ListPreference 
+        android:key="preference_dismiss_method"
+        android:title="@string/pre_title_dismiss_method"
+        android:dialogTitle="Chọn cách tắt báo thức"
+        android:entries="@array/title_dismiss"
+        android:entryValues="@array/value_dismiss"
+        android:summary="Bấm nút để tắt"
+        />
+   
+</PreferenceScreen>

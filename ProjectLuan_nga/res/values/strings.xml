@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="test">Test</string>
+    <string name="app_name">Sự Kiện Và Báo Thức</string>
+    <string name="new_event">Sự kiện mới</string>
+    <string name="edit_event">Chỉnh sửa sự kiện</string>
+    <string name="label">Sự kiện</string>
+    <string name="note">Ghi chú</string>
+    <string name="ringtone">Chuông báo</string>
+    <string name="vibration">Rung khi đổ chuông</string>
+    <string name="silence_after">Im lặng sau</string>
+    <string name="settings">Cài Đặt</string>
+    <string name="done">Xong</string>
+    <string name="cancel">Hủy</string>
+    <string name="edit">Sửa</string>
+    <string name="delete">Xóa</string>
+    <string name="event">Sự kiện</string>
+    <string name="title_time">Thời gian</string>
+    <string name="all_day_ckeck">Cả ngày</string>
+    <string name="loop">Lặp lại</string>
+    <string name="notification_event">Thông báo sự kiện</string>
+    <string name="reminders">Lời nhắc</string>
+    <string name="add_reminders">Thêm lời nhắc</string>
+    <string name="location">Địa điểm</string>
+    <string name="name">Tên sự kiện</string>
+    <string name="description">Mô tả</string>
+    <string name="status_default">Sự kiện diễn ra một lần</string>
+    <string name="week">Sự kiện diễn ra hàng tuần</string>
+    <string name="month">Sự kiện diễn ra hàng tháng</string>
+    <string name="utility">Tiện ích</string>
+    
+    <string-array name="silence_after_title">
+        <item >20 giây</item>
+        <item >30 giây</item>
+        <item >50 giây</item>
+        <item >60 giây</item>
+    </string-array>
+    
+    <string-array name="silence_after_value">
+        <item >20 giây </item>
+        <item >30 giây</item>
+        <item >50 giây</item>
+        <item >60 giây</item>
+    </string-array>
+    
+    <string-array name="reminders_title">
+        <item >1 phút trước sự kiện</item>
+        <item >5 phút trước sự kiện</item>
+        <item >15 phút trước sự kiện</item>
+        <item >30 phút trước sự kiện</item>
+        <item >60 phút trước sự kiện</item>
+        <item >2 giờ trước sự kiện</item>
+        <item >24 giờ trước sự kiện</item>
+        <item >2 ngày trước sự kiện</item>
+    </string-array>
+    
+    <string-array name="reminders_value">
+        <item name="1" >1 phút trước sự kiện</item>
+        <item >5 phút trước sự kiện</item>
+        <item >15 phút trước sự kiện</item>
+        <item >30 phút trước sự kiện</item>
+        <item >60 phút trước sự kiện</item>
+        <item >2 giờ trước sự kiện</item>
+        <item >24 giờ trước sự kiện</item>
+        <item >2 ngày trước sự kiện</item>
+    </string-array>
+    
+    <string name="edit_alarm">Sửa báo thức</string>
+    <string name="new_alarm">Đặt báo thức</string>
+    <string name="labeldemo">Nhập tên</string>
+    <string name="repeatdemo">Chọn ngày lặp lại</string>
+    <string  name="pre_title_label">Nhãn</string>
+	<string  name="pre_title_set_time">Chọn giờ</string>
+	<string  name="pre_title_repeat">Lặp lại</string>
+	<string  name="pre_title_ringtune">Nhạc chuông</string>
+	<string  name="pre_title_variable">Rung</string>
+	<string name="pre_title_dismiss_method">Cách tắt báo thức</string>
+	<string name="pre_title_snooze_time">Báo lại</string>
+	
+	
+	<!-- end set alarm -->
+	
+	    <string-array name="title_snooze_time">
+	        <item >5 Phút</item>
+	        <item >10 Phút</item>
+	        <item >15 Phút</item>
+	        <item >20 Phút</item>
+	        <item >25 Phút</item>
+	        <item >30 Phút</item>
+	    </string-array>
+	    
+	    <string-array name="value_snooze_time">
+	        <item >1</item>
+	        <item >2</item>
+	        <item >3</item>
+	        <item >4</item>
+	        <item >5</item>
+	        <item >6</item>
+	    </string-array>
+    
+    <!-- kết thúc snooze_time -->
+    
+    <!-- Bắt đầu Repeat  -->
+	    <string-array name="title_repeat">
+	        <item >Thứ 2</item>
+	        <item >Thứ 3</item>
+	        <item >Thứ 4</item>
+	        <item >Thứ 5</item>
+	        <item >Thứ 6</item>
+	        <item >Thứ 7</item>
+	        <item >Chủ nhật</item>
+	    </string-array>
+	    
+	    <string-array name="value_repeat">
+	        <item >0</item>
+	        <item >1</item>
+	        <item >2</item>
+	        <item >3</item>
+	        <item >4</item>
+	        <item >5</item>
+	        <item >6</item>
+	    </string-array>
+    
+    <!-- kết thúc Repeat  -->
+    
+    <!-- Bắt đầu Dismiss  -->
+	    <string-array name="title_dismiss">
+	        <item >Làm phép toán</item>
+	        <item >Bấm nút để tắt</item>
+	    </string-array>
+	    
+	    <string-array name="value_dismiss">
+	        <item >0</item>
+	        <item >1</item>
+	    </string-array>
+
+</resources>
